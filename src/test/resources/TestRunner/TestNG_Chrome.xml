@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session Suite" verbose = "4" thread-count = "2" parallel = "tests">
+
+	<test name="Open Cart Login Page Test - Chrome">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://demo.opencart.com/index.php?route=account/login" />
+	<classes>
+	<class name="TestNGSessions.LoginPageTest" />
+	</classes>
+	</test>
+	
+	<test name="Open Cart Home Page Test - Chrome">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://demo.opencart.com/index.php?route=account/login" />
+	<classes>
+	<class name="TestNGSessions.HomePageTest" />
+	</classes>
+	</test>
+	
+</suite>
+
+
+<!-- Under this test suite, we have 2 test blocks -->
+<!-- Verbose is used to give the number of information for log -->
+<!-- Parallel - is to run the test blocks in parallel mode and it should be equal to tests
+thread-count is something to run in parallel -->
+<!--If thread-count is set to 2, then we are total no.of blocks /2 - > Two browsers will be launched at a time -->
+<!-- If we have 50 test blocks, then we shall use till thread-count as 5, More number of threads will result in more number of browser and it would result in performance withdraw-->
+<!-- When we have 10 test blocks and we declare 20 thread count, then he performance will get affected
+Thread- count is the concept of Test NG -->
+<!-- Both thread-count and parallel words will work together -->

@@ -1,0 +1,38 @@
+TESTNG - Test New Generation
+It is a unit testing framework.
+
+We can write some Unit Test case/System Integration Test Case
+No link between selenium and Test NG
+Developers used this to develop UT
+Test NG is only used for Java
+JUNIT is also for Java (unit tseting framework)
+Comparitively Test NG has many features. Hence ppl are using this.
+
+
+Features:
+Maintain test cases
+provides number of annotations
+provides assertion libraries
+can give priority through Test NG
+Give HTML reports
+Depends on methods
+Excepted exception
+Invocation count
+
+Test runner - xml
+Threading - Parallel Execution
+Cross Browser Testing
+
+Selenium + Testing + Framework --> Hybrid Framework
+
+Selenium is a UI Automation library
+Test NG is a library to write test cases
+
+Install and use TestNG:
+1. Run as TestNG - TestNG Plunge on eclipse
+2. TestNG dependency in pom.xml file: so that we can use Test NG libraries and features/methods
+
+
+
+src - main java - is used for utilities and libraries
+src test java is used for writing test cases.

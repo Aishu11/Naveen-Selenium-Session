@@ -1,0 +1,21 @@
+BS
+BT
+BC
+		BM
+			T1 - based on the alphabetic order, it will pick the order
+		AM
+		
+		BM
+			T2
+		AM
+		
+		BM
+			T3
+		AM
+		
+AC
+AT
+AS
+
+BM and AM will be executed in pairs
+For each and every Test , Before and After Methods will be executed with alphabetical order.
