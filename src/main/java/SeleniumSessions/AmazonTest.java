@@ -16,7 +16,8 @@ public class AmazonTest {
 		String title = br.getTitle();
 		System.out.println(title);
 		br.getCurrentURL();
-		br.closeBrowser();
+		//br.closeBrowser();
+		br.quit();
 
 	}
 
